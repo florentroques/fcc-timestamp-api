@@ -3,6 +3,8 @@
 var express = require('express');
 var app = express();
 
+var port = process.env.PORT || 8080;
+
 function isNumeric(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
 }
