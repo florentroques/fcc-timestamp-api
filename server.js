@@ -44,6 +44,6 @@ app.get(/.+/, function (req, res) {
   res.json({"unix":timestamp, "natural":formattedDate});
 });
 
-app.listen(80, function () {
+app.listen(port, function () {
   console.log('Example app listening on port 80!');
 });
